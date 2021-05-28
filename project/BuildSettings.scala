@@ -17,7 +17,7 @@ object BuildSettings {
     organizationHomepage  := Some(url("http://evolutiongaming.com")),
     bintrayOrganization   := Some("evolutiongaming"),
     scalaVersion          := crossScalaVersions.value.head,
-    crossScalaVersions    := Seq("2.13.3", "2.12.12"),
+    crossScalaVersions    := Seq("2.13.3", "2.12.14"),
     releaseCrossBuild     := true,
     licenses              := Seq(("Apache-2.0", url("http://www.apache.org/licenses/LICENSE-2.0"))))
 }
